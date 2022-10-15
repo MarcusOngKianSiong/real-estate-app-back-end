@@ -1,0 +1,19 @@
+{
+  "name": "real_estate_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcusOngKianSiong/real-estate-app-back-end.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcusOngKianSiong/real-estate-app-back-end/issues"
+  },
+  "homepage": "https://github.com/MarcusOngKianSiong/real-estate-app-back-end#readme"
+}
