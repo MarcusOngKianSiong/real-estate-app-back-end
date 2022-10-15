@@ -2,7 +2,7 @@ const express = require("express")
 const app = express()
 
 app.get('/',(req,res)=>{
-    res.send("TESTING CONNECTION???")
+    res.render('something')
 })
 
 app.listen(3000,()=>{
