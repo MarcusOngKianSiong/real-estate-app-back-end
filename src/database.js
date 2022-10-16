@@ -22,7 +22,7 @@ db.on( 'open' , ()=>{
 const account = mongoose.model('account',accountSchema)
 
 const seedAccount = {
-    email: 'bob@gmail.com',
+    email: 'tim@gmail.com',
     name: 'tim',
     password: 'ha'
 }
