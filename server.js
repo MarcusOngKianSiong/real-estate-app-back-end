@@ -2,7 +2,7 @@ const express = require("express")
 const app = express()
 
 app.get('/',(req,res)=>{
-    res.render('something')
+    res.send('SENDING SOMETHING TO THE FRONT END!!!')
 })
 
 app.listen(8080,()=>{
