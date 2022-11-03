@@ -27,4 +27,3 @@ fetch('http://localhost:8080/showbuyinterest?token=eyJhbGciOiJIUzI1NiIsInR5cCI6I
 .then(res=>{
     console.log(res)
 })
-
