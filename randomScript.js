@@ -20,7 +20,7 @@ const database = require('./src/database.js')
 //     })    
 // })
 
-fetch('http://localhost:8080/showbuyinterest?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyYW5kb21TdHJpbmciOiJvdGY1eVJCVVV5V2JPMnlGTXJzenR1dHEyN3RGcFEiLCJhY2NvdW50X2lkIjoiNjM0Yjk4YmVhNTI2NjVlODUxOTFlZDQyIiwiaWF0IjoxNjY3MjQ0MzM1fQ.Wd6z7UNVfNnYJSxPpPqsnNGvF2cTkB3yj4C_32leYPc')
+fetch('https://172.31.27.39:8080/buyData')
 .then(res=>{
     return res.json()
 })
